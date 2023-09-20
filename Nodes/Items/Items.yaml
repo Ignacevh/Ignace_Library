@@ -1,0 +1,115 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: FI101
+  Type: ObjectLibraryItem
+  Children:
+  - Name: FI101
+    Id: g=26b6fcf2f554056ab2653310024b94f1
+    Supertype: SetpointIndicator
+    ReferenceType: HasComponent
+    Children:
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      Value: 260.0
+    - Name: ArrowArea
+      Type: Panel
+      Children:
+      - Name: Arrow
+        Type: PolyLine
+        Children:
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+          Children:
+          - Name: ExpressionEvaluator1
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../AnalogVariablePointer@Value"
+            - Name: Source1
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../AnalogVariablePointer/EURange/Low"
+            - Name: Source2
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../AnalogVariablePointer/EURange/High"
+      - Name: Range
+        Type: Rectangle
+        Children:
+        - Name: HighLimit
+          Type: Rectangle
+          Children:
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            Value: 170.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../HighAlarm"
+        - Name: LowLimit
+          Type: Rectangle
+          Children:
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            Value: 30.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../LowAlarm"
+    - Name: AnalogVariablePointer
+      Type: Alias
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"6b915454a9129d8190b0d5f2088ac130","Namespace":4}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":2368}
+    - Name: ItemDetails
+      Type: Rectangle
+      Children:
+      - Name: ItemName
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../AnalogVariablePointer@DisplayName"
+    - Name: HighAlarm
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 170
+    - Name: LowAlarm
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 30
