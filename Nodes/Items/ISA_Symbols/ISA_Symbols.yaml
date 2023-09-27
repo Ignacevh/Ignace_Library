@@ -1,0 +1,313 @@
+Name: ISA_Symbols
+Type: FolderType
+Children:
+- Name: Pneumatic_Valve
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Pneumatic_Valve
+    Id: g=c5cc40a5c62da4a81d677d9e3aadac28
+    Supertype: MultiStateImage
+    ReferenceType: HasComponent
+    Children:
+    - Name: StateValue
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: States
+      Type: BaseObjectType
+      Children:
+      - Name: ns=5;State
+        Type: MultiStateImageState
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=4;%PROJECTDIR%/ISA Symbols/Control_valve.svg"
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+- Name: Fan
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Fan
+    Id: g=4b02ab11ee0f177074f79df6cbb47102
+    Supertype: MultiStateImage
+    ReferenceType: HasComponent
+    Children:
+    - Name: StateValue
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: States
+      Type: BaseObjectType
+      Children:
+      - Name: ns=5;State
+        Type: MultiStateImageState
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=4;%PROJECTDIR%/ISA Symbols/Fan.svg"
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 160.0
+- Name: ButterFly
+  Type: ObjectLibraryItem
+  Children:
+  - Name: ButterFly
+    Id: g=abfc15472054691583b4a13ae04675d9
+    Supertype: MultiStateImage
+    ReferenceType: HasComponent
+    Children:
+    - Name: StateValue
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: States
+      Type: BaseObjectType
+      Children:
+      - Name: ns=5;State
+        Type: MultiStateImageState
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=4;%PROJECTDIR%/ISA Symbols/IEEE_315_Transmission_Path_Symbols_(65).svg"
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+- Name: Rectangular_Tank
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Rectangular_Tank
+    Id: g=5f9bbb9556b5c3429865e95d9aa586e1
+    Supertype: MultiStateImage
+    ReferenceType: HasComponent
+    Children:
+    - Name: StateValue
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: States
+      Type: BaseObjectType
+      Children:
+      - Name: ns=5;State
+        Type: MultiStateImageState
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=4;%PROJECTDIR%/ISA Symbols/P&ID_2061.svg"
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+- Name: Pipe
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Pipe
+    Id: g=4ea94fb239a5ad4301d0dd1864670ee2
+    Supertype: MultiStateImage
+    ReferenceType: HasComponent
+    Children:
+    - Name: StateValue
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: States
+      Type: BaseObjectType
+      Children:
+      - Name: ns=5;State
+        Type: MultiStateImageState
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=4;%PROJECTDIR%/ISA Symbols/Pipe.svg"
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+- Name: Pressurized_Tank
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Pressurized_Tank
+    Id: g=3486aa4dca064aaf4f8180d908551278
+    Supertype: MultiStateImage
+    ReferenceType: HasComponent
+    Children:
+    - Name: StateValue
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: States
+      Type: BaseObjectType
+      Children:
+      - Name: ns=5;State
+        Type: MultiStateImageState
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=4;%PROJECTDIR%/ISA Symbols/Pressurized_vessel_vertical.svg"
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+- Name: Pump
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Pump
+    Id: g=6d0236013957ddabde5a59381068098f
+    Supertype: MultiStateImage
+    ReferenceType: HasComponent
+    Children:
+    - Name: StateValue
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: States
+      Type: BaseObjectType
+      Children:
+      - Name: ns=5;State
+        Type: MultiStateImageState
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=4;%PROJECTDIR%/ISA Symbols/Pump.svg"
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
